@@ -487,7 +487,7 @@ def main():
 
     ip = obtener_ip_local()
     print('=' * 60)
-    print("ViewerImgSteam versión 1.0")
+    print("ViewerImg Stream versión 1.0")
     print("Desarrollado por Totir Deloper - MIT License")
     print ("Link del código fuente: https://github.com/TotirDeloper/Viewer-Img-Steam")
     print('=' * 60)
