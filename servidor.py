@@ -489,7 +489,7 @@ def main():
     print('=' * 60)
     print("ViewerImg Stream versión 1.0")
     print("Desarrollado por Totir Deloper - MIT License")
-    print ("Link del código fuente: https://github.com/TotirDeloper/Viewer-Img-Steam")
+    print ("Link del código fuente: https://github.com/TotirDeloper/Viewer-Img-Stream")
     print('=' * 60)
     print("Repositorio del código ")
     print(f'Imágenes encontradas: {len(img_list)}')
