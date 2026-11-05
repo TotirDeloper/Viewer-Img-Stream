@@ -116,14 +116,14 @@ EXTENSIONES = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.avif', '.svg'
 
 ## 📸 Capturas del Proyecto
 
-### 🖥️ En Navegador (Modo Visor)
+### 💻 En Consola
+![Consola](image/muestra/Consola.png)
+
+### 🖥️ En Navegador (Modo Visor) -- Abre automáticamente con la consola
 ![Modo Navegador](image/muestra/EnNavegador.png)
 
 ### 📱 En Modo Control (Tablet)
 ![Modo Control](image/muestra/EnControlMode.png)
-
-### 💻 En Consola
-![Consola](image/muestra/Consola.png)
 
 --
 
