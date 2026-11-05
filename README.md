@@ -28,13 +28,13 @@ visor-imagenes/
 ├─ servidor.py
 ├─ README.md
 ├─ LICENSE
-└─ img/
+└─ files/
    ├─ foto1.jpg
    ├─ foto2.png
-   └─ ...
+   └─ file1.pdf
 ```
 
-Solo necesitas **`servidor.py`** y la carpeta **`img/`** con tus imágenes dentro.
+Solo necesitas **`servidor.py`** y la carpeta **`files/`** con tus imágenes (y ahora pdf) dentro.
 
 ---
 
@@ -99,9 +99,16 @@ Pillow disponible: sí
 
 ```python
 PUERTO = 8080
-CARPETA_IMG = Path("img")
+CARPETA_IMG = Path("files")
 ABRIR_NAVEGADOR = True
-EXTENSIONES = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.avif', '.svg'}
+EXTENSIONES_IMG = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.avif', '.svg'}
+EXTENSIONES_PDF = {'.pdf'}
+TIPOS_MIME = {
+    '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
+    '.png': 'image/png', '.gif': 'image/gif',
+    '.webp': 'image/webp', '.bmp': 'image/bmp',
+    '.avif': 'image/avif', '.svg': 'image/svg+xml',
+}}
 ```
 
 ---
@@ -129,7 +136,7 @@ EXTENSIONES = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.avif', '.svg'
 
 ## ⬇️ Descargar
 
-**[📥 Descargar Visor de Imágenes para Windows (v1.0)](https://github.com/TotirDeloper/Viewer-Img-Stream/releases/tag/v1.0)**
+**[📥 Descargar Visor de Imágenes para Windows (v1.0)](https://github.com/TotirDeloper/Viewer-Img-Stream/releases/tag/v1.1)**
 
 *   **Tamaño:** ~21 MB 
 *   **No requiere instalación** (Portable)
