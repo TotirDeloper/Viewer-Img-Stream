@@ -114,6 +114,19 @@ EXTENSIONES = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.avif', '.svg'
 
 ---
 
+## 📸 Capturas del Proyecto
+
+### 🖥️ En Navegador (Modo Visor)
+![Modo Navegador](image/muestra/EnNavegador.png)
+
+### 📱 En Modo Control (Tablet)
+![Modo Control](image/muestra/EnControlMode.png)
+
+### 💻 En Consola
+![Consola](image/muestra/Consola.png)
+
+--
+
 ## 🧰 Tecnologías
 
 - Python 3.10.8 (`http.server`, `threading`, `queue`)
