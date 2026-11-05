@@ -127,6 +127,22 @@ EXTENSIONES = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.avif', '.svg'
 
 --
 
+## ⬇️ Descargar
+
+**[📥 Descargar Visor de Imágenes para Windows (v1.0)](https://github.com/TotirDeloper/Viewer-Img-Stream/releases/tag/v1.0)**
+
+*   **Tamaño:** ~21 MB 
+*   **No requiere instalación** (Portable)
+*   **Compatible con OBS Studio**
+
+> ⚠️ **Nota importante sobre la seguridad:**
+> Esta versión compilada (`.exe`) **no requiere tener Python instalado** para funcionar. 
+> 
+> Sin embargo, si eres una persona precavida, **se recomienda utilizar la versión NO compilada (`servidor.py`)**, que te permite leer el código y compilarlo tú mismo para tu mayor tranquilidad.
+
+*(Para ejecutar la versión en Python, solo necesitas tener Python 3.10 o superior y ejecutar `python servidor.py` en la consola).*
+
+
 ## 🧰 Tecnologías
 
 - Python 3.10.8 (`http.server`, `threading`, `queue`)
